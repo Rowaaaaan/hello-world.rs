@@ -81,7 +81,7 @@ webdriver         = "0.43.1"
 amethyst          = { version = "0.15.3", features = ["empty"] }
 textwrap          = "0.14.2"
 nom               = "7"
-hyper             = "0.13.8"
+hyper             = "0.14.11"
 markup            = "0.12.2"
 nix               = "0.20.0"
 pretty_assertions = "0.7.2"

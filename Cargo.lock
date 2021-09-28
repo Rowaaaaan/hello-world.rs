@@ -3524,7 +3524,7 @@ dependencies = [
  "gtk",
  "handlebars",
  "html5ever",
- "hyper 0.13.10",
+ "hyper 0.14.11",
  "idna 0.2.3",
  "job_scheduler",
  "jsonwebtoken",
