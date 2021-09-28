@@ -673,7 +673,7 @@ dependencies = [
  "rusttype 0.7.9",
  "walkdir",
  "xdg",
- "xml-rs 0.8.4",
+ "xml-rs",
 ]
 
 [[package]]
@@ -3115,22 +3115,22 @@ dependencies = [
 
 [[package]]
 name = "gl"
-version = "0.6.5"
+version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1c73b90c285f02059b34a6c66bc645ba5faa18c0e3ab332e0725654fc71db441"
+checksum = "a94edab108827d67608095e269cf862e60d920f144a5026d3dbcfd8b877fb404"
 dependencies = [
  "gl_generator",
 ]
 
 [[package]]
 name = "gl_generator"
-version = "0.6.1"
+version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "75d69f914b49d9ff32fdf394cbd798f8c716d74fd19f9cc29da3e99797b2a78d"
+checksum = "1a95dfc23a2b4a9a2f5ab41d194f8bfda3cabec42af4e39f08c339eb2a0c124d"
 dependencies = [
  "khronos_api",
- "log 0.3.9",
- "xml-rs 0.7.0",
+ "log 0.4.14",
+ "xml-rs",
 ]
 
 [[package]]
@@ -4115,9 +4115,9 @@ dependencies = [
 
 [[package]]
 name = "khronos_api"
-version = "2.2.0"
+version = "3.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "037ab472c33f67b5fbd3e9163a2645319e5356fcd355efa6d4eb7fff4bbcb554"
+checksum = "e2db585e1d738fc771bf08a151420d3ed193d9d895a36df7f6f8a9456b911ddc"
 
 [[package]]
 name = "laminar"
@@ -5775,7 +5775,7 @@ dependencies = [
  "indexmap",
  "line-wrap",
  "serde",
- "xml-rs 0.8.4",
+ "xml-rs",
 ]
 
 [[package]]
@@ -8642,7 +8642,7 @@ checksum = "bf3828c568714507315ee425a9529edc4a4aa9901409e373e9e0027e7622b79e"
 dependencies = [
  "proc-macro2 0.4.30",
  "quote 0.6.13",
- "xml-rs 0.8.4",
+ "xml-rs",
 ]
 
 [[package]]
@@ -8922,15 +8922,6 @@ name = "xi-unicode"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e71b85d8b1b8bfaf4b5c834187554d201a8cd621c2bbfa33efd41a3ecabd48b2"
-
-[[package]]
-name = "xml-rs"
-version = "0.7.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3c1cb601d29fe2c2ac60a2b2e5e293994d87a1f6fa9687a31a15270f909be9c2"
-dependencies = [
- "bitflags",
-]
 
 [[package]]
 name = "xml-rs"
