@@ -3537,7 +3537,7 @@ dependencies = [
  "money",
  "mp4parse",
  "multipart",
- "nix 0.20.1",
+ "nix 0.22.2",
  "nom 7.0.0",
  "num",
  "num-derive 0.3.3",
@@ -4883,9 +4883,9 @@ dependencies = [
 
 [[package]]
 name = "nix"
-version = "0.20.1"
+version = "0.22.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "df8e5e343312e7fbeb2a52139114e9e702991ef9c2aea6817ff2440b35647d56"
+checksum = "d3bb9a13fa32bc5aeb64150cd3f32d6cf4c748f8f8a417cce5d2eb976a8370ba"
 dependencies = [
  "bitflags",
  "cc",
